@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.774);
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  background-color: violet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    background-color: red;
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background-color: green;
+    li {
+      background-color: gold;
+    }
+  }
+}
+
+section.landing {
+  width: 100%;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  background-color: greenyellow;
+  h1 {
+    display: grid;
+  }
+}
+
+section.facilities {
+  width: 100%;
+  min-height: 90%;
+  display: grid;
+  place-items: center;
+  background-color: pink;
+  .container {
+    margin: 20px 0px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    .card {
+      background-color: aqua;
+      .card-img {
+        height: 200px;
+        background-color: yellow;
+      }
+      .card-desc {
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+section.message {
+  width: 100%;
+  min-height: 90%;
+  display: grid;
+  place-items: center;
+  background-color: salmon;
+  h1 {
+    display: grid;
+  }
+}
