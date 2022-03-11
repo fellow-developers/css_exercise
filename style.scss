@@ -6,8 +6,7 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.774);
-  overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -35,7 +34,7 @@ nav {
 
 section.landing {
   width: 100%;
-  min-height: 90%;
+  min-height: 100%;
   display: grid;
   place-items: center;
   background-color: greenyellow;
@@ -51,6 +50,7 @@ section.facilities {
   place-items: center;
   background-color: pink;
   .container {
+    margin: 20px 0px;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
